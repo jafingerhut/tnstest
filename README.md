@@ -1,6 +1,9 @@
 # tnstest
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure project to demonstrate a potential bug in tools.namespace
+library involving `.clj` files that shadow `.cljc` files with the same
+namespace.
+
 
 ## Usage
 
@@ -69,6 +72,7 @@ user=> (pprint t)
 nil
 
 ```
+
 
 ## License
 
